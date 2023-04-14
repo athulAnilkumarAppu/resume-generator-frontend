@@ -18,8 +18,6 @@ const ResumePdfCreator = ()=> {
         const sendDataRes = await sendResumeDataService(value)
         if(sendDataRes.data === true){
             downloadPdf()
-        }else{
-            downloadPdf()
         }
     }
 
