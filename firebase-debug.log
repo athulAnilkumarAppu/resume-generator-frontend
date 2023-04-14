@@ -1,0 +1,43 @@
+[debug] [2023-04-13T17:45:59.160Z] ----------------------------------------------------------------------
+[debug] [2023-04-13T17:45:59.162Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\athul\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-04-13T17:45:59.162Z] CLI Version:   11.26.0
+[debug] [2023-04-13T17:45:59.162Z] Platform:      win32
+[debug] [2023-04-13T17:45:59.162Z] Node Version:  v16.15.1
+[debug] [2023-04-13T17:45:59.163Z] Time:          Thu Apr 13 2023 23:15:59 GMT+0530 (India Standard Time)
+[debug] [2023-04-13T17:45:59.164Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-13T17:45:59.258Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-13T17:45:59.259Z] > authorizing via signed-in user (athulanilkumarappu@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2023-04-13T17:45:59.272Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-04-13T17:45:59.272Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-04-13T17:45:59.272Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-04-13T17:45:59.282Z] [hub] writing locator at C:\Users\athul\AppData\Local\Temp\hub-createyourresume-ac689.json
+[debug] [2023-04-13T17:45:59.316Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/createyourresume-ac689/sites 
+[debug] [2023-04-13T17:46:00.456Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/createyourresume-ac689/sites 200
+[debug] [2023-04-13T17:46:00.456Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/createyourresume-ac689/sites {"sites":[{"name":"projects/createyourresume-ac689/sites/createyourresume-ac689","defaultUrl":"https://createyourresume-ac689.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-04-13T17:46:00.457Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/createyourresume-ac689/webApps/-/config [none]
+[debug] [2023-04-13T17:46:01.442Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/createyourresume-ac689/webApps/-/config 200
+[debug] [2023-04-13T17:46:01.442Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/createyourresume-ac689/webApps/-/config {"projectId":"createyourresume-ac689","storageBucket":"createyourresume-ac689.appspot.com","apiKey":"AIzaSyCQDwq8yImg4xVgamZ1e-M_hYmPRfua9w0","authDomain":"createyourresume-ac689.firebaseapp.com","messagingSenderId":"631359235636"}
+[debug] [2023-04-13T17:46:01.483Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/createyourresume-ac689 [none]
+[debug] [2023-04-13T17:46:02.084Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/createyourresume-ac689 200
+[debug] [2023-04-13T17:46:02.084Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/createyourresume-ac689 {"projectId":"createyourresume-ac689","projectNumber":"631359235636","displayName":"createYourResume","name":"projects/createyourresume-ac689","resources":{"hostingSite":"createyourresume-ac689"},"state":"ACTIVE","etag":"1_1435f0d5-3c4f-45ba-af67-747caded829a"}
+[info] i  hosting[createyourresume-ac689]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[createyourresume-ac689]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2023-04-13T17:46:21.587Z] Received signal SIGHUP 1
